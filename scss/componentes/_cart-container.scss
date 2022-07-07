@@ -3,6 +3,7 @@
 
 .tituloCarrito {
     text-align: center;
+   
     font-family: 'Marck Script', cursive;
     font-size: 30px;
 }
@@ -19,8 +20,8 @@
 
 .cartRow {
     border: 1px solid gray;
-    width: 70%;
-    height: 40px;
+    width: 99%;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,9 +29,11 @@
 }
 
 .cartHeader {
-    margin-top: 50px;
+    margin: 20px;
+    width: 30%;
     font-size: 20px;
     border: none;
+    align-items: center;
 }   
 
 

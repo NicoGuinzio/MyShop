@@ -6,49 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/estilo.css" />
-    <title>My Shop</title>
+    <title>My Shop BORRADOR </title>
 </head>
 
 <body>
     <header>
-        <h1 id="titulo">My Shop</h1>
+        <h1 id="titulo">My Shop BORRADOR</h1>
     </header>
 
-    <nav>
-        <!-- Lo agregue para probar despues
+    <nav class="barraDeBusqueda">
         <div class="menu">
             <div class="searchBox">
                 <input type="text" name="searchBar" id="searchBar">
                 <button id="searchButton" class="searchButton" title="Buscar"> &#128270; </button>
             </div>
             <div class="menuList">
-                -- Codigo Inyectado desde JS --
+                <!-- Codigo Inyectado desde JS -->
                 
             </div>
         </div>
-    -->
     </nav>
+
+    <div class="EstructuraPage">
+
+        <section id="cardsPropias" class="container">
+            <!--Codigo inyectado desde JS-->
+        </section>
         
-    <section id="cardsPropias" class="container">
-        <!--Codigo inyectado desde JS-->
-    </section>
-
-    <hr>
-
-    <section class="cartHeader"> 
+        <hr>
+        
+    <aside class="cartHeader"> 
         <div class="tituloCarrito">
-                <h2>Tu carrito</h2>
+            <h2>Carrito</h2>
         </div>
         <div id="cartContainer" class="cartContainer">
-        <!-- carrito inyectado desde Js-->
+            <!-- carrito inyectado desde Js-->
         </div>
-
+        
         <div class="vaciarCarrito">
             <button id="vaciarCarrito"> Vaciar Carrito</button>
         </div>
-    </section>
-
-
+    </aside>
+    
+</div>
+    
     
     <script src="js/apppage.js"></script>
 </body>
