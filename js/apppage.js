@@ -17,7 +17,7 @@ const searchButton = document.querySelector('#searchButton')
 
 const searchBarProductos = () => {
     const searchQuery = searchBar.value.toLowerCase() //Aca esta el valor que ingresa el usuario en la barra de busqueda
-    console.log('Se ejecuta la busqueda' + searchQuery)
+    
     const searchResult = productos.filter((producto) => producto.nombre.toLowerCase().includes(searchQuery))
     productos = searchResult
     console.log(searchResult)
@@ -27,7 +27,7 @@ const searchBarProductos = () => {
 const buscarProductosEnArrayPorId = (seleccion) => productos.find((producto) => producto.codigo == seleccion)
 
 const imprimirProductos = (llamoAlArrayProductos) => {   //AGREGUE ESTO CUANDO SUME EL JSON FETCH
-    cardContainer.innerHTML = []
+    cardContainer.innerHTML = ''
     llamoAlArrayProductos.forEach((producto) => {
         const cardProductos = document.createElement('div')
         cardProductos.className = 'card'
@@ -96,7 +96,10 @@ vaciarCarritoBtn.addEventListener('click', vaciarCarrito)
 
 //Event listeners
 
+//Barra de busqueda
 searchButton.addEventListener('click', searchBarProductos)
+
+//Busco con cada cambio en el input
 searchBar.addEventListener('input', searchBarProductos)
 
 
