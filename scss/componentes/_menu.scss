@@ -1,0 +1,78 @@
+@import '../base/colores';
+@import '../base/tipografias';
+
+.menu {
+    height: 90%;
+    min-width: 165px;
+    width: 15%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menuList {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menuTab, .searchBox {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    background-color: $color-secondary-2-0;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+}
+
+.searchBox input, .searchButton {
+    height: 80%;
+    width: 75%;
+    background-color: $color-secondary-2-1;
+    border: none;
+    border-radius: 5px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-left: 10%;
+}
+
+.searchButton {
+    height: 80%;
+    width: 19%;
+    margin: 0 3%;
+    border: none;
+    border-radius: 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.menuTab:hover, .searchButton:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.08);
+}
+
+.menuTabImg {
+    width: 50px;
+    margin-right: 5px;
+}
+
+.menuTabImg img {
+    width: 100%;
+}
+
+.menuTabText {
+    font-size: 16px;
+    font-weight: 500;
+}

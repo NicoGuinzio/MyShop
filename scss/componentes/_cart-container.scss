@@ -1,0 +1,67 @@
+@import "../base/colores";
+@import '../base/tipografias';
+
+.tituloCarrito {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+}
+
+
+.cartContainer {
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+.cartRow {
+    border: 1px solid gray;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.cartHeader {
+    margin-top: 50px;
+    font-size: 20px;
+    border: none;
+}   
+
+
+.cartImg {
+    width: 15%;
+}
+.cartImg img {
+    width: 100%;
+}
+
+.cartTitle {
+    padding-left: 5%;
+    width: inherit;
+}
+
+.cartDesc {
+    width: 35%;
+}
+
+.cartPrice {
+    width: 25%;
+}
+
+
+.vaciarCarrito {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+ #vaciarCarrito {
+    height: 4rem;
+    background-color: red;
+    border-radius:  20px;
+ }
+}

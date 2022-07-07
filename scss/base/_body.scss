@@ -1,0 +1,15 @@
+@import '../base/colores';
+@import '../base/tipografias';
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(70deg, $color-primary-0,$color-primary-1,$color-secondary-1-4,$color-primary-3,$color-primary-4);
+}
+
+#titulo{
+    text-align: center;
+    font-size: 5rem;
+    color:#000;
+    font-family: 'Marck Script', cursive;
+}

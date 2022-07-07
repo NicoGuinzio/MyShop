@@ -1,0 +1,184 @@
+{
+    "data": [
+        {
+            "codigo":"A01" ,
+            "categoria":"buzos" ,
+            "nombre": "Sweet Blue",
+            "marca":"Adidas",
+            "imagen": "https://st4.depositphotos.com/1005901/20792/i/450/depositphotos_207925768-stock-photo-blue-children-knitted-sweater-pattern.jpg",
+            "descripcion": "Buzo Sweater, 100% lana",
+            "precio": "3000"
+        },
+        {
+            "codigo":"A02" ,
+            "categoria":"buzos" ,
+            "nombre": "Sweet White",
+            "marca":"Adidas",
+            "imagen": "https://st4.depositphotos.com/1005901/20792/i/450/depositphotos_207925884-stock-photo-gray-knitted-sweater-isolate-white.jpg",
+            "descripcion": "Buzo Sweater, 100% lana",
+            "precio": "3000"
+        },
+        {
+            "codigo":"A03" ,
+            "categoria":"buzos" ,
+            "nombre": "Sweet Red",
+            "marca":"Adidas",
+            "imagen": "https://st4.depositphotos.com/1005901/20792/i/450/depositphotos_207925638-stock-photo-red-knitted-sweater-isolate-white.jpg",
+            "descripcion": "Buzo Sweater, 100% lana",
+            "precio": "3000"
+        },
+        {
+            "codigo":"A04" ,
+            "categoria":"buzos" ,
+            "nombre": "Sweet knight",
+            "marca":"Adidas",
+            "imagen": "https://st4.depositphotos.com/1005901/20792/i/450/depositphotos_207925624-stock-photo-children-knitted-sweater-pattern-isolate.jpg",
+            "descripcion": "Buzo Sweater, 100% lana",
+            "precio": "3000"
+        },
+        {
+            "codigo":"A05" ,
+            "categoria":"buzos" ,
+            "nombre": "Sweet Chrismas",
+            "marca":"Adidas",
+            "imagen": "https://st4.depositphotos.com/16122460/29717/i/450/depositphotos_297178800-stock-photo-warm-red-christmas-sweater-on.jpg",
+            "descripcion": "Buzo Sweater, 100% lana",
+            "precio": "3000"
+        },
+        {
+            "codigo":"B01" ,
+            "categoria":"pantalones" ,
+            "nombre": "Brown Canch",
+            "marca":"Fila",
+            "imagen": "https://st4.depositphotos.com/1226172/19675/i/450/depositphotos_196756388-stock-photo-brown-formal-mens-trousers-isolated.jpg",
+            "descripcion": "Pantalón elegante, corte chino.",
+            "precio": "6.500"
+        },
+        {
+            "codigo":"B02" ,
+            "categoria":"pantalones" ,
+            "nombre": "Blue Canch",
+            "marca":"Fila",
+            "imagen": "https://st4.depositphotos.com/1226172/19675/i/450/depositphotos_196756998-stock-photo-navy-blue-formal-mens-trousers.jpg",
+            "descripcion": "Pantalón elegante, corte chino.",
+            "precio": "6.500"
+        },
+        {
+            "codigo":"B03" ,
+            "categoria":"pantalones" ,
+            "nombre": "Grey Catch",
+            "marca":"Fila",
+            "imagen": "https://st4.depositphotos.com/1226172/19675/i/450/depositphotos_196756374-stock-photo-grey-formal-mens-trousers-isolated.jpg",
+            "descripcion": "Pantalón elegante, corte chino.",
+            "precio": "6.500"
+        },
+        {
+            "codigo":"B04" ,
+            "categoria":"pantalones" ,
+            "nombre": "Dark Red Woman",
+            "marca":"Fila",
+            "imagen": "https://st4.depositphotos.com/1226172/24728/i/450/depositphotos_247284716-stock-photo-stylish-burgundy-womens-narrow-leg.jpg",
+            "descripcion": "Pantalón elegante, corte chino.",
+            "precio": "6.500"
+        },
+        {
+            "codigo":"B05" ,
+            "categoria":"pantalones" ,
+            "nombre": "Yellow Woman",
+            "marca":"Fila",
+            "imagen": "https://st4.depositphotos.com/1226172/24813/i/450/depositphotos_248135560-stock-photo-stylish-yellow-womens-narrow-leg.jpg",
+            "descripcion": "Pantalón elegante, corte chino.",
+            "precio": "6.500"
+        },
+        {
+            "codigo":"C01" ,
+            "categoria":"camperas" ,
+            "nombre": "Cuero Bugatti",
+            "marca":"Nike",
+            "imagen": "https://st2.depositphotos.com/1559986/5425/i/950/depositphotos_54252621-stock-photo-black-jacket-isolated-on-white.jpg",
+            "descripcion": "100% Cuero, comodidad y confort para el que maneja su vida.",
+            "precio": "10.000"
+        },
+        {
+            "codigo":"C02" ,
+            "categoria":"camperas" ,
+            "nombre": "Cuero Mustang",
+            "marca":"Nike",
+            "imagen": "https://st4.depositphotos.com/1226172/21801/i/1600/depositphotos_218019568-stock-photo-mens-black-leather-jacket-isolated.jpg",
+            "descripcion": "100% Cuero, comodidad y confort para el que maneja su vida.",
+            "precio": "10.000"
+        },
+        {
+            "codigo":"C03" ,
+            "categoria":"camperas" ,
+            "nombre": "Cuero Lambo",
+            "marca":"Nike",
+            "imagen": "https://st2.depositphotos.com/39943604/44099/i/1600/depositphotos_440998298-stock-photo-black-leather-jacket-isolated-white.jpg",
+            "descripcion": "100% Cuero, comodidad y confort para el que maneja su vida.",
+            "precio": "10.000"
+        },
+        {
+            "codigo":"C04" ,
+            "categoria":"camperas" ,
+            "nombre": "Cuero Pagani",
+            "marca":"Nike",
+            "imagen": "https://st2.depositphotos.com/1046686/7231/i/950/depositphotos_72312199-stock-photo-coat.jpg",
+            "descripcion": "100% Cuero, comodidad y confort para el que maneja su vida.",
+            "precio": "10.000"
+        },
+        {
+            "codigo":"C05" ,
+            "categoria":"camperas" ,
+            "nombre": "Cuero Camaro",
+            "marca":"Nike",
+            "imagen": "https://st2.depositphotos.com/39943604/44099/i/1600/depositphotos_440995536-stock-photo-brown-leather-jacket-isolated-white.jpg",
+            "descripcion": "100% Cuero, comodidad y confort para el que maneja su vida.",
+            "precio": "10.000"
+        },
+        {
+            "codigo":"D01" ,
+            "categoria":"remeras" ,
+            "nombre": "Remera Negra",
+            "marca":"Gucci",
+            "imagen": "https://st.depositphotos.com/1000300/2087/i/450/depositphotos_20873927-stock-photo-mens-t-shirt-isolated-on.jpg",
+            "descripcion": "Remera nice color",
+            "precio": "2.500"
+        },
+        {
+            "codigo":"D02" ,
+            "categoria":"remeras" ,
+            "nombre": "Remera Gris",
+            "marca":"Gucci",
+            "imagen": "https://st2.depositphotos.com/1000300/5588/i/950/depositphotos_55883217-stock-photo-mens-t-shirt-isolated-on.jpg",
+            "descripcion": "Remera nice color",
+            "precio": "2.500"
+        },
+        {
+            "codigo":"D03" ,
+            "categoria":"remeras" ,
+            "nombre": "Remera Bordó",
+            "marca":"Gucci",
+            "imagen": "https://st2.depositphotos.com/1000300/6578/i/950/depositphotos_65781389-stock-photo-mens-t-shirt-isolated-on.jpg",
+            "descripcion": "Remera nice color",
+            "precio": "2.500"
+        },
+        {
+            "codigo":"D04" ,
+            "categoria":"remeras" ,
+            "nombre": "Remera Amarilla",
+            "marca":"Gucci",
+            "imagen": "https://st3.depositphotos.com/10614052/36747/i/1600/depositphotos_367476342-stock-photo-stylish-shirt-white-background.jpg",
+            "descripcion": "Remera nice color",
+            "precio": "2.500"
+        },
+        {
+            "codigo":"D05" ,
+            "categoria":"remeras" ,
+            "nombre": "Musculosa Rosa",
+            "marca":"Gucci",
+            "imagen": "https://st3.depositphotos.com/1807424/36129/i/1600/depositphotos_361297484-stock-photo-showcase-beauty-your-designs-back.jpg",
+            "descripcion": "Remera nice color",
+            "precio": "2.500"
+        }
+    ]
+}
