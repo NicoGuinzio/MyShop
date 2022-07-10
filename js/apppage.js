@@ -18,9 +18,9 @@ const searchButton = document.querySelector('#searchButton')
 const searchBarProductos = () => {
     const searchQuery = searchBar.value.toLowerCase() //Aca esta el valor que ingresa el usuario en la barra de busqueda
     const searchResult = productos.filter((producto) => producto.nombre.toLowerCase().includes(searchQuery))
-    
+
     imprimirProductos(searchResult)
-    }
+}
 
 const buscarProductosEnArrayPorId = (seleccion) => productos.find((producto) => producto.codigo == seleccion)
 
@@ -30,7 +30,7 @@ const imprimirProductos = (llamoAlArrayProductos) => {   //AGREGUE ESTO CUANDO S
         const cardProductos = document.createElement('div')
         cardProductos.className = 'card'
         cardProductos.innerHTML =
-        `      
+            `      
                 <img src="${producto.imagen}"alt="${producto.categoria}">
                 <h4>${producto.nombre}</h4>
                 <p>${producto.descripcion}</p>
@@ -49,8 +49,8 @@ const imprimirCarrito = () => {
     carrito.forEach((producto) => {
         const cartRow = document.createElement('div')
         cartRow.className = 'cartRow'
-        cartRow.innerHTML = 
-    `
+        cartRow.innerHTML =
+            `
         <div class="cartTitle"><span> Prenda ${producto.nombre}</span></div>
         <div class="cartPrice"><span> $${producto.precio}</span></div>
     
@@ -67,6 +67,15 @@ const funcionDeAgregarCarrito = () => {
         carrito.push(producto)
         imprimirCarrito()
         localStorage.setItem('carrito', JSON.stringify(carrito))
+        Toastify({
+            text: "Se añadió al Carrito",
+            color: "#000",
+            duration: 3000,
+            style: {
+                background: "linear-gradient(to right, #FF7206,#FF8885)",
+                position: "left",
+            },
+        }).showToast();
     }
 
     const botonesCompra = document.querySelectorAll('.buttonCTA')
@@ -85,6 +94,14 @@ const vaciarCarrito = () => {
         localStorage.removeItem('carrito')
     }
     carrito = []
+    Toastify({
+        text: "Carrito Vacío",
+        duration: 3000,
+        style: {
+            background: "linear-gradient(to right, #000, #ff0000)",
+        },
+    }).showToast();
+
     imprimirCarrito()
 }
 
@@ -109,4 +126,3 @@ fetch('./data/productos.json')
         productos = jsonResponse.data
         imprimirProductos(productos)
     })//AGREGUE ESTO
-

@@ -26,7 +26,7 @@
     height: 430px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: auto;
 }
 
@@ -41,7 +41,7 @@
     text-align: center;
     transition: all 0.25s;
     padding-top: 40px;
-    background-color: blanchedalmond;
+    background-color: $color-primary2-1;
 }
 
 .container .card:hover {
